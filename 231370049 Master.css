@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+    font-family: Calibri;
+    font-size: 11pt;
+}
+
+p {
+    -ms-defaultTabStop: 36pt;
+    line-height: 1.54;
+    margin-bottom: 8pt;
+    margin-top: 0pt;
+}
+
+p:empty {
+    height: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0pt;
+    empty-cells: hide;
+}
+
+td {
+    padding-bottom: 0pt;
+    padding-left: 5.75pt;
+    padding-right: 5.75pt;
+    padding-top: 0pt;
+    vertical-align: top;
+}
+
+.p-Heading1 {
+    -ms-outlineLvl: 0;
+    color: #2F5496;
+    font-family: "Calibri Light";
+    font-size: 14pt;
+    font-weight: bold;
+    margin-bottom: 0pt;
+    margin-top: 24pt;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+}
+
+.p-Heading2 {
+    -ms-outlineLvl: 1;
+    color: #4472C4;
+    font-family: "Calibri Light";
+    font-size: 13pt;
+    font-weight: bold;
+    margin-bottom: 0pt;
+    margin-top: 10pt;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+}
+
+.p-Heading3 {
+    -ms-outlineLvl: 2;
+    color: #4472C4;
+    font-family: "Calibri Light";
+    font-weight: bold;
+    margin-bottom: 0pt;
+    margin-top: 10pt;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+}
+
+.p-Normal {
+
+}
+
+.p-TOC1 {
+    margin-bottom: 5pt;
+}
+
+.p-TOC2 {
+    margin-bottom: 5pt;
+    margin-left: 11pt;
+}
+
+.p-TOCHeading {
+    color: #2F5496;
+    font-family: "Calibri Light";
+    font-size: 14pt;
+    font-weight: bold;
+    line-height: 1.57;
+    margin-bottom: 0pt;
+    margin-top: 24pt;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+}
+
+.c-Hyperlink {
+    color: #0563C1;
+    text-decoration: underline;
+}
